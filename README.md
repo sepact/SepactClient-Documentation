@@ -9,7 +9,7 @@ Bienvenue sur la documentation officielle de **SepactClient**. Vous trouverez ic
 | Icône | Risque de Ban | Description |
 | :---: | :--- | :--- |
 | 🟢 | **0%** | Indétectable (Safe) |
-| 🟡 | **1% - 3%** | Utilisation prudente recommandée |
+| 🟡 | **1% - 3%** | Utilisation Safe mais très peu de chance de ban |
 | 🔴 | **50% +** | Risque élevé de détection |
 | ❓ | **Inconnu** | Non testé sur ce serveur |
 
@@ -61,9 +61,9 @@ Bienvenue sur la documentation officielle de **SepactClient**. Vous trouverez ic
 ---
 
 ## 🏗️ En cours de développement (Upcoming)
-* ⚓ **Anchor Macro**
-* 💧 **AutoDrain** & 🌪️ **AutoWindPerle** (Correctifs en cours)
-* ✨ **Nouveaux modules visuels**
+*  **Anchor Macro**
+*  **AutoDrain** & 🌪️ **AutoWindPerle** (Correctifs en cours)
+*  **Nouveaux modules visuels**
 
 ---
 
