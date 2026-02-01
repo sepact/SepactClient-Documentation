@@ -1,16 +1,45 @@
-# 🌌 SepactClient Documentation
-> **Note :** Le client se met à jour automatiquement. 🔄
+## 📘 Documentation officielle — SepactClient
 
-Bienvenue sur la documentation officielle de **SepactClient**. Vous trouverez ici la liste des modules, leurs fonctionnalités et l'indice de risque vis-à-vis des anti-cheats.
-Ainsi que comment utiliser le client.
-Le SepactClient (toujours en attente d'un vrai nom) est un Client Injectable pour fabric 1.21.8
-Ce Client utilise l'api de fabric donc il est malheuresement necessaire d'etre en fabric et d'avoir fabric api sur son jeu
+Bienvenue sur la documentation officielle de **SepactClient**.  
+Vous trouverez ici :
+- la liste des modules
+- leurs fonctionnalités
+- leur indice de risque vis-à-vis des anti-cheats
+- ainsi qu’un guide d’utilisation du client
 
-Au niveau de l'injection sa reste comme les autre Injecteur (vape, prestige etc)
-Lancer votre jeu, rejoigner un Monde et lancer l'exe
+---
 
-> **Important :** L'injecteur peut etre détecter par certain anti virus pour des raison "suspect"
-> Mais cela n'est pas un virus ! il est simplement detecter car il telecharge et ensuite inject des dll dans le jeu
+### 🔧 Présentation
+
+**SepactClient** *(nom provisoire)* est un **client injectable** pour **Minecraft Fabric 1.21.8**.
+
+Le client utilise l’**API Fabric**, il est donc **obligatoire** :
+- d’utiliser **Fabric**
+- d’avoir **Fabric API** installé
+
+---
+
+### 💉 Injection
+
+L’injection fonctionne de la même manière que la plupart des injecteurs  
+*(Vape, Prestige, etc.)* :
+
+1. Lancez Minecraft  
+2. Rejoignez un monde  
+3. Lancez l’injecteur (`.exe`)
+
+---
+
+### ⚠️ Important
+
+> **Attention :** l’injecteur peut être détecté par certains antivirus.
+
+Cela est **normal** :
+- le programme télécharge des fichiers
+- puis injecte des DLL dans le jeu  
+
+❌ Ce n’est **pas un virus**  
+✅ C’est simplement lié au fonctionnement de l’injection
 ---
 
 ## 🛡️ Légende de Détection
