@@ -40,6 +40,7 @@ Lancer votre jeu, rejoigner un Monde et lancer l'exe
 | **TriggerBot** | Frappe auto quand le curseur est sur l'ennemi (gère les Crit). | **All:** 🟡 |
 | **NoMiss** | Annule l'attaque si vous allez frapper dans le vide. | **All:** 🟢 |
 | **ShieldDisabler** | Désactive le bouclier adverse (même à travers les murs donc attention). | **PvPClub:** 🟡 / **MMC:** 🔴 |
+| **AutoThrowPot**  | Lance automatiquement des potion lorsque vous en avez besoin (force heal etc) | **PvPClub** 🟡 / **MMC** ❓/ **Stray** 🟡 |
 
 > ⚠️ **Note sur ShieldDisabler :** Faire un 360° augmente drastiquement la détection (jusqu'à 70%).
 
@@ -65,6 +66,13 @@ Lancer votre jeu, rejoigner un Monde et lancer l'exe
 * **Ver:** `OFF`
 * **Speed:** `10`
 * **FOV:** `90`
+
+### Je ne vais pas tous citer mais tout ces modules ont besoin de configuration
+* **HoverTotem**
+* **AutoDoubleHand**
+* **ESP**
+*  **AutoThrowPot**
+*  
 
 ---
 
