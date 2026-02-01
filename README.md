@@ -82,8 +82,8 @@ Lancer votre jeu, rejoigner un Monde et lancer l'exe
 > **Attention :** La touche ne sert pas à activer/désactiver le module, mais à déclencher l'action immédiatement. Pour faire marcher **AutoThrowPot**, activez le module, choisissez une touche et c'est prêt.
 
 > [!IMPORTANT]
-> Les Modules Suivant ne Marche pas (pas pour l'instant)
-> **AutoWindPerle**
+> Les Modules Suivant ne Marche pas (pas pour l'instant).
+>* **AutoWindPerle**
 ---
 @ SepactClient 2026 - Copyright
 All Rights Reserved
