@@ -72,7 +72,7 @@ Cela est **normal** :
 | Module | Description | Détection |
 | :--- | :--- | :--- |
 | **AimAssist** | Assistance de visée vers l’adversaire. | **All:** 🟢 |
-| **TriggerBot** | Attaque automatique lorsque le curseur est sur l’ennemi (gestion des crits). | **All:** 🟡 |
+| **TriggerBot** | Attaque automatique lorsque le curseur est sur l’ennemi (gestion des crits). | **PVPClub:** 🟡 / **MMC**: 🔴|
 | **NoMiss** | Annule l’attaque si le coup va être raté. | **All:** 🟢 |
 | **ShieldDisabler** | Désactive le bouclier adverse (fonctionne aussi à travers les murs). | **PvPClub:** 🟡 / **MMC:** 🔴 |
 | **AutoThrowPot** | Lance automatiquement des potions selon la situation (heal, etc.). | **PvPClub:** 🟡 / **MMC:** ❓ / **Stray:** 🟡 |
