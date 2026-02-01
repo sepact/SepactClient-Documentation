@@ -40,13 +40,15 @@ Cela est **normal** :
 
 ❌ Ce n’est **pas un virus**  
 ✅ C’est simplement lié au fonctionnement de l’injection
+
 ---
 
 ## 🛡️ Légende de Détection
+
 | Icône | Risque de Ban | Description |
 | :---: | :--- | :--- |
 | 🟢 | **0%** | Indétectable (Safe) |
-| 🟡 | **1% - 3%** | Utilisation Safe mais très peu de chance de ban |
+| 🟡 | **1% - 3%** | Utilisation safe, très faible risque |
 | 🔴 | **50% +** | Risque élevé de détection |
 | ❓ | **Inconnu** | Non testé sur ce serveur |
 
@@ -55,72 +57,82 @@ Cela est **normal** :
 ## 🛠️ Liste des Modules
 
 ### 🏃 Mouvement & Visuel
+
 | Module | Description | Détection |
 | :--- | :--- | :--- |
 | **Sprint** | Sprint automatique. | **All:** 🟢 |
-| **Fullbright** | Vision nocturne (Client-side). | **All:** 🟢 |
-| **ESP** | Voir les joueurs et leur vie à travers les murs. | **All:** 🟢 |
+| **Fullbright** | Vision nocturne (client-side). | **All:** 🟢 |
+| **ESP** | Affiche les joueurs et leur vie à travers les murs. | **All:** 🟢 |
 | **TeleportWarn** | Alerte en cas de téléportation suspecte (Beta). | **All:** 🟢 |
 
+---
+
 ### ⚔️ Combat & Assistance
+
 | Module | Description | Détection |
 | :--- | :--- | :--- |
-| **AimAssist** | Aide à la visée vers l'adversaire. | **All:** 🟢 |
-| **TriggerBot** | Frappe auto quand le curseur est sur l'ennemi (gère les Crit). | **All:** 🟡 |
-| **NoMiss** | Annule l'attaque si vous allez frapper dans le vide. | **All:** 🟢 |
-| **ShieldDisabler** | Désactive le bouclier adverse (même à travers les murs donc attention). | **PvPClub:** 🟡 / **MMC:** 🔴 |
-| **AutoThrowPot**  | Lance automatiquement des potion lorsque vous en avez besoin (force heal etc) | **PvPClub** 🟡 / **MMC** ❓/ **Stray** 🟡 |
+| **AimAssist** | Assistance de visée vers l’adversaire. | **All:** 🟢 |
+| **TriggerBot** | Attaque automatique lorsque le curseur est sur l’ennemi (gestion des crits). | **All:** 🟡 |
+| **NoMiss** | Annule l’attaque si le coup va être raté. | **All:** 🟢 |
+| **ShieldDisabler** | Désactive le bouclier adverse (fonctionne aussi à travers les murs). | **PvPClub:** 🟡 / **MMC:** 🔴 |
+| **AutoThrowPot** | Lance automatiquement des potions selon la situation (heal, etc.). | **PvPClub:** 🟡 / **MMC:** ❓ / **Stray:** 🟡 |
 
-> ⚠️ **Note sur ShieldDisabler :** Faire un 360° augmente drastiquement la détection (jusqu'à 70%).
+> ⚠️ **Note – ShieldDisabler :** effectuer une rotation à 360° augmente fortement la détection (jusqu’à ~70%).
 
-### 🎒 Gestion d'Inventaire
+---
+
+### 🎒 Gestion d’Inventaire
+
 | Module | Description | Détection |
 | :--- | :--- | :--- |
-| **AutoInvTotem** | Place un totem dans la offhand dès l'ouverture de l'inventaire. | **PvPClub:** 🟡 / **MMC:** ❓ |
-| **HoverTotem** | Place un totem dans la offhand au survol de la souris. | **All:** 🟡 |
-| **AutoDoubleHand** | Switch auto sur le totem en hotbar après un pop. | **All:** 🟡 |
-| **AutoHotbarRefill** | Remplit votre hotbar de potions (Inventaire ouvert). | **All:** 🟢 |
-| **FastEXP** | Auto-clicker optimisé pour les fioles d'XP. | **All:** 🟢 |
-| **AutoHitCristal** | Attaque automatique des cristaux. | **PvPClub:** 🟡 / **MMC:** ❓ |
+| **AutoInvTotem** | Place un totem en offhand à l’ouverture de l’inventaire. | **PvPClub:** 🟡 / **MMC:** ❓ |
+| **HoverTotem** | Place un totem en offhand au survol de la souris. | **All:** 🟡 |
+| **AutoDoubleHand** | Switch automatiquement sur un totem en hotbar après un pop. | **All:** 🟡 |
+| **AutoHotbarRefill** | Remplit la hotbar en potions (inventaire ouvert). | **All:** 🟢 |
+| **FastEXP** | Auto-clicker optimisé pour les fioles d’XP. | **All:** 🟢 |
+| **AutoHitCrystal** | Attaque automatique des cristaux. | **PvPClub:** 🟡 / **MMC:** ❓ |
 
 ---
 
 ## ⚙️ Configurations Recommandées
 
-### **AimAssist (Optimisé)**
-* **Hostile:** `OFF`
-* **Murs:** `OFF`
-* **Weapon:** `ON`
-* **Hoz:** `ON`
-* **Ver:** `OFF`
-* **Speed:** `10`
-* **FOV:** `90`
+### AimAssist — Configuration Optimisée
 
-### Je ne vais pas tous citer mais tout ces modules ont besoin de configuration
-* **HoverTotem**
-* **AutoDoubleHand**
-* **ESP**
-*  **AutoThrowPot**
-*  
+- **Hostile:** `OFF`
+- **Murs:** `OFF`
+- **Weapon:** `ON`
+- **Horizontal (Hoz):** `ON`
+- **Vertical (Ver):** `OFF`
+- **Speed:** `10`
+- **FOV:** `90`
+
+> La majorité des modules nécessitent une configuration adaptée à votre serveur et à votre style de jeu, notamment :
+- **HoverTotem**
+- **AutoDoubleHand**
+- **ESP**
+- **AutoThrowPot**
 
 ---
 
-## 🏗️ En cours de développement (Upcoming)
-*  **Anchor Macro**
-*  **AutoDrain** & 🌪️ **AutoWindPerle** (Correctifs en cours)
-*  **Nouveaux modules visuels**
-* **Auto Mace**
+## 🏗️ En cours de développement
+
+- **Anchor Macro**
+- **AutoDrain** & **AutoWindPearl** *(correctifs en cours)*
+- **Nouveaux modules visuels**
+- **Auto Mace**
 
 ---
 
 ## 💡 À Savoir
-> [!IMPORTANT]
-> Certains modules comme **AutoThrowPot** ou **AutoWindPerle** nécessitent l'attribution d'une touche. 
-> **Attention :** La touche ne sert pas à activer/désactiver le module, mais à déclencher l'action immédiatement. Pour faire marcher **AutoThrowPot**, activez le module, choisissez une touche et c'est prêt.
 
-> [!IMPORTANT]
-> Les Modules Suivant ne Marche pas (pas pour l'instant).
->* **AutoWindPerle**
+> **Important :**  
+> Certains modules comme **AutoThrowPot** ou **AutoWindPearl** nécessitent l’attribution d’une touche.  
+> Cette touche ne sert **pas** à activer/désactiver le module, mais à **déclencher l’action instantanément**.
+
+> **Important :**  
+> Les modules suivants ne sont **pas encore fonctionnels** :
+> - **AutoWindPearl**
+
 ---
-@ SepactClient 2026 - Copyright
-All Rights Reserved
+
+© SepactClient 2026 — All Rights Reserved
