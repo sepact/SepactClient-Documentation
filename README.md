@@ -2,7 +2,15 @@
 > **Note :** Le client se met à jour automatiquement. 🔄
 
 Bienvenue sur la documentation officielle de **SepactClient**. Vous trouverez ici la liste des modules, leurs fonctionnalités et l'indice de risque vis-à-vis des anti-cheats.
+Ainsi que comment utiliser le client.
+Le SepactClient (toujours en attente d'un vrai nom) est un Client Injectable pour fabric 1.21.8
+Ce Client utilise l'api de fabric donc il est malheuresement necessaire d'etre en fabric et d'avoir fabric api sur son jeu
 
+Au niveau de l'injection sa reste comme les autre Injecteur (vape, prestige etc)
+Lancer votre jeu, rejoigner un Monde et lancer l'exe
+
+> **Important :** L'injecteur peut etre détecter par certain anti virus pour des raison "suspect"
+> Mais cela n'est pas un virus ! il est simplement detecter car il telecharge et ensuite inject des dll dans le jeu
 ---
 
 ## 🛡️ Légende de Détection
@@ -73,6 +81,9 @@ Bienvenue sur la documentation officielle de **SepactClient**. Vous trouverez ic
 > Certains modules comme **AutoThrowPot** ou **AutoWindPerle** nécessitent l'attribution d'une touche. 
 > **Attention :** La touche ne sert pas à activer/désactiver le module, mais à déclencher l'action immédiatement. Pour faire marcher **AutoThrowPot**, activez le module, choisissez une touche et c'est prêt.
 
+> [!IMPORTANT]
+> Les Modules Suivant ne Marche pas (pas pour l'instant)
+> **AutoWindPerle**
 ---
 @ SepactClient 2026 - Copyright
 All Rights Reserved
